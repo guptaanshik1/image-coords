@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.overlay {
+  border: 2px solid red; /* Set border color */
+  background-color: rgba(
+    255,
+    0,
+    0,
+    0.3
+  ); /* Set background color with transparency */
+}
